@@ -49,13 +49,20 @@
     margin: 0 5px 0 5px;
     height: 30px;
     background-color: transparent;
+
+    &:hover, &:focus {
+      border-color: #ffffff;
+      cursor: pointer;
+      color: #ffffff;
+      outline: none;
+    }
   }
 
-  :first-child {
+  &:first-child {
     margin: 0 5px 0 0;
   }
 
-  :last-child {
+  &:last-child {
     margin: 0 0 0 5px;
   }
 
@@ -83,7 +90,8 @@
   &:last-child {
     padding: 0 0 0 10px;
   }
-  &__description{
+
+  &__description {
     margin-bottom: 30px;
   }
 }

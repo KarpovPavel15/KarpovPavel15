@@ -31,9 +31,14 @@
   margin: 0 5px 0 5px;
   height: 30px;
   background-color: transparent; }
-.navigation :first-child {
+  .navigation__headerBtn:hover, .navigation__headerBtn:focus {
+    border-color: #ffffff;
+    cursor: pointer;
+    color: #ffffff;
+    outline: none; }
+.navigation:first-child {
   margin: 0 5px 0 0; }
-.navigation :last-child {
+.navigation:last-child {
   margin: 0 0 0 5px; }
 
 .about-us {
