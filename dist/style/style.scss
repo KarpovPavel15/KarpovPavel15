@@ -1,0 +1,89 @@
+.page {
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio {
+  background-image: url("../images/Bg.png");
+  padding: 55px 40px 70px 40px;
+
+  &__title, &__text {
+    color: #666d89;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__navigation {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  &__firstLine, &__secondLine, &__thirdLine {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__work {
+    margin: 5px;
+
+    &:first-child {
+      margin: 5px 10px 5px 0;
+    }
+
+    &:last-child {
+      margin: 5px 0 5px 10px;
+    }
+
+  }
+}
+
+.navigation {
+  &__headerBtn {
+    font-size: 15px;
+    border-radius: 7px;
+    color: #666d89;
+    border: 2px solid #666d89;
+    margin: 0 5px 0 5px;
+    height: 30px;
+    background-color: transparent;
+  }
+
+  :first-child {
+    margin: 0 5px 0 0;
+  }
+
+  :last-child {
+    margin: 0 0 0 5px;
+  }
+
+}
+
+.about-us {
+  padding: 55px 40px 70px 40px;
+
+  &__title, &__text {
+    color: #666d89;
+  }
+
+  &__workers {
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-between;
+  }
+}
+
+.worker {
+  &:first-child {
+    padding: 0 10px 0 0;
+  }
+
+  &:last-child {
+    padding: 0 0 0 10px;
+  }
+  &__description{
+    margin-bottom: 30px;
+  }
+}

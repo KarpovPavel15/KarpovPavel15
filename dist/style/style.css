@@ -1,3 +1,55 @@
+.page {
+  margin: 0;
+  padding: 0; }
 
+.portfolio {
+  background-image: url("../images/Bg.png");
+  padding: 55px 40px 70px 40px; }
+  .portfolio__title, .portfolio__text {
+    color: #666d89; }
+  .portfolio__content {
+    display: flex;
+    flex-direction: column; }
+  .portfolio__navigation {
+    display: flex;
+    margin-bottom: 20px; }
+  .portfolio__firstLine, .portfolio__secondLine, .portfolio__thirdLine {
+    display: flex;
+    justify-content: space-between; }
+  .portfolio__work {
+    margin: 5px; }
+    .portfolio__work:first-child {
+      margin: 5px 10px 5px 0; }
+    .portfolio__work:last-child {
+      margin: 5px 0 5px 10px; }
+
+.navigation__headerBtn {
+  font-size: 15px;
+  border-radius: 7px;
+  color: #666d89;
+  border: 2px solid #666d89;
+  margin: 0 5px 0 5px;
+  height: 30px;
+  background-color: transparent; }
+.navigation :first-child {
+  margin: 0 5px 0 0; }
+.navigation :last-child {
+  margin: 0 0 0 5px; }
+
+.about-us {
+  padding: 55px 40px 70px 40px; }
+  .about-us__title, .about-us__text {
+    color: #666d89; }
+  .about-us__workers {
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-between; }
+
+.worker:first-child {
+  padding: 0 10px 0 0; }
+.worker:last-child {
+  padding: 0 0 0 10px; }
+.worker__description {
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */
