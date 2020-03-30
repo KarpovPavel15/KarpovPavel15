@@ -1,0 +1,19 @@
+{
+  "name": "layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarpovPavel15/SingoloP2.git"
+  },
+  "author": "KPV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarpovPavel15/SingoloP2/issues"
+  },
+  "homepage": "https://github.com/KarpovPavel15/SingoloP2#readme"
+}
